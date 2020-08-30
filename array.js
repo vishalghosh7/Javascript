@@ -105,6 +105,10 @@ function stringFunction(){
         case "charAt":
             res.innerHTML=`character at 3 pos is -> ${y.charAt(2)}`;
             break;
+
+        case "length":
+            res.innerHTML=`length of ${y} is -> ${y.length}`;
+            break;
     }
     // res.innerHTML=;
 }
