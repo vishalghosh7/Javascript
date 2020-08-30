@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="array container-fluid">
+        <h2>Arrays</h2>
+        <form>
+            <div class="form-group">
+                <label for="arrayinput">Enter atleast 3 elements (example:- mango,guava,banana):</label>
+                <input type="text" class="form-control arrayInput" id="arrayinput">
+            </div>
+            <div class="form-group">
+                <label for="arrayMethodSelect">Select method</label>
+                <select class="form-control" id="arrayMethodSelect">
+                  <option value="slice">slice</option>
+                  <option vlaue="join">join</option>
+                  <option value="length">length</option>
+                  <option value="delete">delete</option>
+                  <option value="splice">splice</option>
+                  <option value="shift">shift</option>
+                  <option value="unshift">unshift</option>
+                  <option value="splice">splice</option>
+                  <option value="fill">fill</option>
+                </select>
+            </div>
+            <button type="button" onclick="arrayFunction()" class="btn btn-primary mb-2">Process</button>
+            <p>Result is: <span class="result"></span></p>
+        </form>
+    </div>
+
+    <div class="string container-fluid d-flex">
+        <h2>Strings</h2>
+    </div>
+    <script src="array.js"></script>
+    <!-- <script src="windowObject.js"></script> -->
+</body>
+</html>
